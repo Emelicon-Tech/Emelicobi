@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emelicobi | Custom Fashion</title>
+  <link rel="stylesheet" href="emelicobi.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+  <nav class="navbar">
+    <h1 class="logo">Emelicobi</h1>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#products">Styles</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <h2>Welcome to Emelicobi</h2>
+  <p>Where Style Meets Precision Tailoring</p>
+  <button onclick="scrollToSection('products')">Explore Styles</button>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" class="products">
+  <h2>Our Collections</h2>
+  <div class="product-grid">
+    <div class="card">Ankara Styles</div>
+    <div class="card">Corporate Shirts</div>
+    <div class="card">Elegant Gowns</div>
+    <div class="card">Casual T-Shirts</div>
+    <div class="card">Senator Wear</div>
+    <div class="card">Skirts & Polos</div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <h2>About Emelicobi</h2>
+  <p>
+    Emelicobi is a premium fashion brand focused on creating custom-made clothing 
+    tailored perfectly to your measurements. Whether you choose from our catalog 
+    or bring your own design, we bring your vision to life with precision and style.
+  </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact Emelicobi</h2>
+  <input type="text" placeholder="Your Name">
+  <input type="email" placeholder="Your Email">
+  <textarea placeholder="Your Message"></textarea>
+  <button onclick="sendMessage()">Send Message</button>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Emelicobi. All rights reserved.</p>
+</footer>
+
+<script src="emelicobi.js"></script>
+</body>
+</html>

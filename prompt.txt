@@ -1,0 +1,11 @@
+i want to build a web application for my clothing line business. both the front end and backends with database and all.
+
+I want the web app to be an interactive site that customers can create an account, select from the various clothing materials we have available for sowing either ankara, senator, corporate shirts, trousers, gowns, skirt polos, T-shirt etc. We will produce both male and female wears
+
+I want users to login, pick their mesuremeant themselves using the list we have available eg waist , burst, shoulder, thighs etc.
+
+users can select a design from our catalog or upload a design they want to make but front, back, full length etc. The system will process their order using that and transfer the order to the sewing sales team who then forwards to production for final manufacturing.
+
+I want you to build this web application for me and let it be mobile friendly. I want to apply vibe coding and vibe engineering.
+
+generate all the codes i need to run it on VScode and also i want the launch the site.
